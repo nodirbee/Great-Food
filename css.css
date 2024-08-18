@@ -1,0 +1,42 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+nav{
+height: 100px;
+background-color: aqua;
+display: flex;
+}
+
+ul li{
+display: inline;
+margin: 2rem;
+
+}
+
+div{
+    width: 30%;
+}
+
+i{
+
+    display: none !important;
+}
+
+
+@media only screen and (    max-width: 600px){
+i{
+    display: inline !important;
+}
+ul{
+display: none;
+
+}
+
+}
+
+
+
+
